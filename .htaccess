@@ -1,0 +1,14 @@
+RewriteEngine On    # Turn on the rewriting engine
+
+RewriteRule    ^home/?$    index.php    [NC,L]
+RewriteRule    ^profile/?$    tentang_hima.php    [NC,L]
+
+RewriteRule    ^forum/?$    forum_aspirasi.php    [NC,L]
+RewriteRule    ^cumatekkom/?$    forum_aspirasi[id].php    [NC,L]
+RewriteRule    ^addcumatekkom/?$    addcumatekkom.php    [NC,L]
+
+RewriteRule    ^info&berita/?$    info_alumni.php    [NC,L]
+
+RewriteRule    ^codigo/?$    layanan_codigo.php    [NC,L]
+RewriteRule    ^codigame/?$    layanan_codigame.php    [NC,L]
+RewriteRule    ^partnership/?$    layanan_partnership.php    [NC,L]
